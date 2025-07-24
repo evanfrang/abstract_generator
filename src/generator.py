@@ -73,8 +73,8 @@ def generate_abstract(
 
 if __name__ == '__main__':
     model, tokenizer = prepare_model()
-    test_category = "astro-ph gr-qc"
-    test_title = "How large can black holes be?"
+    test_category = "cond-mat"
+    test_title = "Using doped silicon wafers to explore paramagnetism in rocks"
     print("\n--- Abstract Generation ---")
     print(f"Category: {test_category}")
     print(f"Title: {test_title}")
